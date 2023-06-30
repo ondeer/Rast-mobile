@@ -1,0 +1,84 @@
+.input {
+  margin: 2rem auto;
+  padding: 2rem;
+  width: auto;
+  max-width: 25rem;
+  font-family: system-ui;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.input .buttonDiv {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input .cancelButton {
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: #f2f4ff;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  color: #744bfc;
+  cursor: pointer;
+}
+
+.input .confirmButton {
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  border: none;
+  background: #744bfc;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.error-text {
+  color: white;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  background-color: #ffa92b;
+  padding: 2rem;
+  border-radius: 25px;
+}
+.success-text {
+  color: white;
+  text-align: center;
+  background-color: green;
+  padding: 0.5rem;
+  border-radius: 25px;
+}
+.closeButton {
+  float: right;
+  margin-right: 10%;
+  cursor: pointer;
+}

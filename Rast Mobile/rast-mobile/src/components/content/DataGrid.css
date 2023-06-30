@@ -1,0 +1,167 @@
+#gridContainer {
+  width: 90%;
+  margin: auto;
+}
+#gridContainer .dx-pager .dx-pages .dx-next-button::before,
+.dx-pager .dx-pages .dx-prev-button::before {
+  color: #744bfc;
+}
+#gridContainer .dx-page-index input {
+  text-align: center;
+}
+
+.dx-pages-count {
+  color: #744bfc;
+}
+.dx-toolbar-after,
+.dx-toolbar-before {
+  position: relative;
+  display: inline-block;
+}
+.dx-toolbar .dx-toolbar-after {
+  padding-left: 0px;
+}
+.dx-datagrid .dx-row:nth-child(even) {
+  background: #f2f4ff;
+}
+.dx-datagrid-headers {
+  border: 1px solid #eaeaea;
+  border-bottom-color: #c4cee5;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  color: black;
+  font-weight: bold;
+}
+.dx-datagrid {
+  border-radius: 8px;
+}
+.dx-page-sizes .dx-texteditor.dx-editor-outlined {
+  width: 100px !important;
+  border-radius: 20px;
+}
+.dx-datagrid-pager {
+  background-color: #f2f4ff;
+}
+.dx-datagrid-rowsview.dx-datagrid-nowrap {
+  border: 1px solid #eaeaea;
+  border-radius: 0px 0px 8px 8px;
+}
+.dx-datagrid-pager {
+  border-top: none;
+}
+.dx-column-indicators,
+.dx-datagrid-text-content {
+  margin-top: 7px;
+}
+.dx-datagrid .dx-row:hover {
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.11);
+}
+.dx-row.dx-data-row.dx-column-lines td {
+  padding: 26px 7px 0;
+  height: 60px;
+}
+.dx-datagrid .dx-sort-down,
+.dx-datagrid .dx-sort-up {
+  color: #744bfc;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.content {
+  background: #f2f4ff;
+  padding-top: 50px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.dataGridHeader {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchbar {
+  position: relative;
+}
+.searchbar input {
+  border-radius: 39px;
+  border: none;
+  padding: 0 20px;
+  width: 380px;
+  height: 42px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+.searchbar .searchSvg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 0 39px 39px 0;
+  cursor: pointer;
+  align-items: center;
+  color: white;
+  right: 0;
+  top: 0;
+  height: 42px;
+  width: 42px;
+  background: #744bfc;
+}
+.filter {
+  color: #744bfc;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 49px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.filter:hover {
+  background-color: #744bfc;
+  color: white;
+}
+
+.newAccount {
+  background: #744bfc;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 39px;
+  padding: 7px 30px;
+  cursor: pointer;
+  border: none;
+  background-size: 300% 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.newAccount p {
+  margin-left: 10px;
+}
+
+.headerLeft {
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  .searchbar input {
+    width: auto;
+  }
+}
+@media (max-width: 620px) {
+  .dataGridHeader {
+    flex-direction: column;
+  }
+  .searchbar input {
+    width: auto;
+  }
+  .headerLeft {
+    margin-bottom: 20px;
+  }
+  .dx-datagrid-nowrap,
+  .dx-datagrid-nowrap .dx-header-row > td > .dx-datagrid-text-content {
+    white-space: break-spaces !important;
+  }
+}
